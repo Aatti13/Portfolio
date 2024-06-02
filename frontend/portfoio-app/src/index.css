@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root{
+  --black: black;
+  --light: white;
+  --orange: orange;
+  --hover-purple: #4d089b;
+  --light-indigo: #b304e4;
+  --discord-bg: #36393F;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.topPart{
+  background: url('./images/vecteezy_alien-space-planet-landscape-with-purple-rocks_20597858.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+body{
+  background: var(--black);
+}
+
