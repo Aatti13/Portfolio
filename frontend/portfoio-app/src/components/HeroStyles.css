@@ -96,3 +96,23 @@
   color: var(--hover-green);
   transition: all 0.3s ease-in;
 }
+
+/* --------------------------------------------------------------------------- */
+/* MEDIA QUERIES */
+
+@media all and (max-width: 1200px){
+  .hero .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+  }
+
+  .leftHero{
+    text-align: center;
+  }
+
+  .rightHero{
+    text-align: center;
+  }
+}

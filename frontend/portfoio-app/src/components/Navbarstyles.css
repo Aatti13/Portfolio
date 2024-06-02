@@ -8,11 +8,6 @@
   --discord-bg: #36393F;
 }
 
-.stickyNavbar{
-  position: sticky;
-  top: 0;
-  z-index: 3;
-}
 
 .header{
   display: flex;
