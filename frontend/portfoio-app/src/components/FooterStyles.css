@@ -1,0 +1,21 @@
+:root{
+  --black: black;
+  --light: white;
+  --orange: orange;
+  --hover-purple: #4d089b;
+  --light-indigo: #b304e4;
+  --discord-bg: #36393F;
+  --hover-green: greenyellow;
+}
+
+.footerContainer{
+  background: url('./images/vecteezy_alien-space-planet-landscape-with-purple-rocks_20597858.jpg');
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}

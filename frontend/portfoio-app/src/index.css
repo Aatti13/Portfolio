@@ -46,6 +46,10 @@ body{
   justify-content: space-evenly;
 }
 
+main{
+  margin: 50px auto;
+}
+
 .card{
   border: 3px solid white;
   width: 384px;
