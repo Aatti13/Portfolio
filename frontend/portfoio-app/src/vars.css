@@ -1,0 +1,14 @@
+:root{
+
+  /* COLOURS */
+  --text-colour: white;
+  --primary-clr: #576cbc;
+  --secondary-clr: #19376d;
+  --dark: #0b2447;
+  --bg-clr: #04152d;
+  --bright-yellow: #FFD700;
+  --dark-yellow: #FFA500;
+
+  /* FONTS */
+  --font: 'Nunito Sans', sans-serif;
+}
