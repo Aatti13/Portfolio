@@ -65,8 +65,8 @@
 
 .topBlur{
   position: absolute;
-  width: 50vw;
-  height: 50vw;
+  width: 40vw;
+  height: 30vw;
   min-width: 250px;
   /* min-height: 250px; */
   top: -208px;
@@ -79,14 +79,16 @@
 
 .bottomBlur{
   position: absolute;
-  width: 70vw;
-  height: 50vw;
+  width: 40vw;
+  height: 20vw;
   min-width: 250px;
-  top: 246px;
-  right: -9vw;
+  top: 66px;
+  right: 0vw;
   border-radius: 780px;
   background: rgba(25, 55, 109, 0.25);
   filter: blur(70px);
+  z-index: 0;
+  /* border: 1px solid white; */
 }
 
 @media all and (max-width: 1150px){
@@ -131,7 +133,7 @@
     margin-top: 50px;
   }
   .title{
-    font-size: 35px;
+    font-size: 40px;
   }
   .contactBtn{
     font-size: 14px;

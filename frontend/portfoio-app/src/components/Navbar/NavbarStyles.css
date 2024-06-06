@@ -1,14 +1,33 @@
 @import url('../../vars.css');
 
+header{
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  /* background-color: var(--bg-clr);
+  opacity: 0.8; */
+  height: 80px;
+}
+
 .navbar{
+  /* background-color: black; */
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  z-index: 2;
+  z-index: 2000;
   padding-top: 11px;
-  margin: 0 10%;
+  /* margin: 0 10%; */
+  transition: all 0.4s ease-in-out;
 }
+
+.navbar.scrolled{
+  background-color: var(--bg-clr);
+  box-shadow: 3px 3px 9px 0 var(--black);
+  opacity: 0.9;
+}
+
 
 .logoLink{
   text-decoration: none;
@@ -66,7 +85,7 @@
 
   .menu{
     position: absolute;
-    top: 18px;
+    top: 28px;
     right: 0;
     margin-right: 0;
     flex-direction: column;

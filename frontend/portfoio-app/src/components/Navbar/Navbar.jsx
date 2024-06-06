@@ -5,14 +5,29 @@ import { FaTimes } from 'react-icons/fa';
 
 function Navbar(){
   const [click, setClick] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
   const handleClick = ()=>{
-    setClick(!click)
-    
+    setClick(!click) 
   }
 
+  const changeBackground = ()=>{
+    try{
+      if(window.scrollY > 5){
+        setNavbar(true)
+      }else{
+        setNavbar(false)
+      }
+    }catch(err){
+      console.log('scroll');
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground);
+
+
   return(
-    <nav className="navbar">
+    <nav className={navbar?'navbar scrolled': 'navbar'}>
       <a href="/" className='logoLink'><h1 className='logoHead'>Aattreya</h1></a>
       <div className="menu">
         <div className="hamburger" onClick={handleClick}>

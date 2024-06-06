@@ -1,0 +1,93 @@
+.about-container{
+  width: 82.5vw;
+  position: relative;
+  margin: 150px auto;
+  border-radius: 15px;
+  padding: 75px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  background: rgba(12, 12, 12, 0.4);
+  margin-bottom: 50px;
+}
+
+.about-container:hover{
+  box-shadow: 5px 5px 25px 0 var(--text-colour);
+  transition: all 0.3s ease-in-out
+}
+
+.abt-title{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.abt-title:hover{
+  color: var(--primary-clr);
+  transition: all 0.3s ease;
+}
+
+.grad-line{
+  margin-top: 10px;
+}
+
+
+.abt-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.abt-items{
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  margin-top: 30px;
+}
+
+.abtitemhead{
+  font-size: 25px;
+}
+
+.left-icon{
+  width: 90%;
+  border-radius: 100%;
+}
+
+.abt-icon{
+  width: 4%;
+  height: 8%;
+}
+
+.right-abt-list ul li{
+  gap: 1.5rem;
+  list-style: none;
+  display: flex;
+  padding: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-image: linear-gradient(90deg, 
+  rgba(165, 215, 232, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+}
+
+.right-abt-list ul li:hover{
+  background-size: 100% 100%;
+  transition: 0.4s;
+}
+
+/* --------------------------------------------------------------------------- */
+/* MEDIA QUERIES */
+
+@media all and (max-width: 750px){
+  .abt-content{
+    margin-top: 80px;
+    flex-direction: column;
+  }
+
+  .abt-icon{
+    width: 15%;
+  }
+}
