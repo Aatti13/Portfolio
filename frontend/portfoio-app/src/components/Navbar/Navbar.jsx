@@ -28,7 +28,7 @@ function Navbar(){
 
   return(
     <nav className={navbar?'navbar scrolled': 'navbar'}>
-      <a href="/" className='logoLink'><h1 className='logoHead'>Aattreya</h1></a>
+      <a href="#" className='logoLink'><h1 className='logoHead'>Aattreya</h1></a>
       <div className="menu">
         <div className="hamburger" onClick={handleClick}>
           {click? (<FaTimes size={20} className='hamburgerIcon'/>):(<FaBars size={20} className='hamburgerIcon'/>)}
@@ -39,7 +39,7 @@ function Navbar(){
             <a href="#about">About</a>
           </li>
           <li className="experience">
-            <a href="#experience">Skills</a>
+            <a href="#skills-cont">Skills</a>
           </li>
           <li className="projects">
             <a href="#projects">Projects</a>
@@ -52,5 +52,6 @@ function Navbar(){
     </nav>
   );
 }
+
 
 export default Navbar;

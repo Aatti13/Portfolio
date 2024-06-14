@@ -1,3 +1,5 @@
+@import url('../../vars.css');
+
 .about-container{
   width: 82.5vw;
   position: relative;
@@ -51,11 +53,15 @@
 }
 
 .left-icon{
+  margin-top: 45px;
   width: 90%;
   border-radius: 100%;
+  cursor: pointer;
+  animation: hoverate 1s linear infinite;
 }
 
 .abt-icon{
+  margin-top: 10px;
   width: 4%;
   height: 8%;
 }
@@ -79,9 +85,22 @@
 }
 
 /* --------------------------------------------------------------------------- */
+/* ANIMATIONS */
+
+@keyframes hoverate{
+  0%{
+    transform: translateY(0px);
+  }50%{
+    transform: translateY(-10px);
+  }100%{
+    transform: translateY(0px);
+  }
+}
+
+/* --------------------------------------------------------------------------- */
 /* MEDIA QUERIES */
 
-@media all and (max-width: 750px){
+@media all and (max-width: 830px){
   .abt-content{
     margin-top: 80px;
     flex-direction: column;
@@ -89,5 +108,15 @@
 
   .abt-icon{
     width: 15%;
+  }
+}
+
+@media all and (max-width: 400px){
+  .abt-title{
+    position: relative;
+    left: 20%;
+    transform: translate(-50%, 0);
+    margin: auto;
+    text-align: center;
   }
 }

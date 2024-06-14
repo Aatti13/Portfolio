@@ -10,3 +10,28 @@
 
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-track{
+  background: var(--bg-clr);
+} 
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track 
+} */
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-clr); /* color of the thumb */
+  border-radius: 15px; /* roundness of the thumb */
+  opacity: 0.80;
+  cursor: pointer;
+  filter: brightness(150%);
+}
+
+/* ::-webkit-scrollbar-thumb{
+  color: var(--primary-clr);
+} */
+
+

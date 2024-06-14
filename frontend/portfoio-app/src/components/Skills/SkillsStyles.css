@@ -1,0 +1,54 @@
+@import url('../../vars.css');
+
+
+.skills-container{
+  margin-top: 180px;
+  margin-left: 10%;
+}
+
+.skill-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.skills{
+  width: 45%;
+  gap: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px solid white;
+  padding: 10px;
+}
+
+.skill{
+  cursor: pointer;
+  background-color: var(--secondary-clr);
+  width: 105px;
+  height: 105px;
+  border-radius: 100%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skill:hover{
+  background-color: var(--golden-rod);
+  transition: all 0.4s ease-in-out;
+}
+
+.img-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ultra{
+  width: 75px;
+}
+
+.hist-content{
+  display: flex;
+}

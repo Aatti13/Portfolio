@@ -1,0 +1,42 @@
+[
+  {
+    "title": "C",
+    "imgSrc": "./images/c.svg",
+    "class": "ultra"
+  },
+  {
+    "title": "C++",
+    "imgSrc": "./images/cpp.png",
+    "class": "ultra"
+  },
+  {
+    "title": "Python",
+    "imgSrc": "./images/python.png",
+    "class":"ultra"
+  },
+  {
+    "title": "Java",
+    "imgSrc": "./images/java.png",
+    "class": "ultra"
+  },
+  {
+    "title": "JavaScript",
+    "imgSrc": "./images/javascript.png",
+    "class":"ultra"
+  },
+  {
+    "title": "ReactJS",
+     "imgSrc": "./images/react.png",
+     "class":"normal"
+  },
+  {
+    "title": "NodeJS",
+    "imgSrc": "./images/node.png",
+    "class":"normal"
+  },
+  {
+    "title": "MongoDB",
+    "imgSrc": "./images/mongodb.png",
+    "class":"normal"
+  }
+]
