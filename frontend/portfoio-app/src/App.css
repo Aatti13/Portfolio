@@ -2,7 +2,7 @@
 
 .homePage{
   /* width: 100vw; */
-  /* height: 240vh; */
+  height: 440vh;
   background-color: var(--bg-clr);
   color: var(--text-colour);
 }
